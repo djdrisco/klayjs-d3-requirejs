@@ -360,8 +360,12 @@ var klay;
     // return the layouter object
     return d3.rebind(d3klay, dispatch, "on");
   }
+
+
   if (typeof module === "object" && module.exports) {
     module.exports = klay;
   }
+
+
   return klay;
 })(klay || (klay = {}));

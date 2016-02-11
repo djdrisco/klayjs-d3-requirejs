@@ -1,18 +1,13 @@
 {
-  "name": "klayjs-d3",
+  "name": "klayjs-d3-requirejs",
+  "description": "d3 layout library klayjs-d3 that supports requirejs",
   "version": "0.3.4",
   "authors": [
-    "Ulf Rueegg <uru@informatik.uni-kiel.de>"
+    "Ulf Rueegg <uru@informatik.uni-kiel.de>",
+    "djdrisco <driscoll.davidj@gmail.com>"
   ],
-  "main": "dist/klayjs-d3.min.js",
+  "main": "dist/klayjs-d3-requirejs.min.js",
   "license": "EPL v1.0",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "d3": ">=3.4.0",
     "klayjs": ">=0.4.0"

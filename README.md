@@ -4,6 +4,7 @@ KLayJS-D3
 A bridge between [KLayJS][klayjs] 
 and [D3.js](http://d3js.org/).
 
+This is a requirejs fork of klayjs-d3.
 KLayJS is a layer-based layout algorithm that is especially suited for
 node-link diagrams with an inherent direction and ports 
 (explicit attachment points on a node's border).
